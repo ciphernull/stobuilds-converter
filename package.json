@@ -1,0 +1,33 @@
+{
+  "name": "stobuilds-converter",
+  "version": "0.0.1",
+  "description": "A converter for STO Academy builds -> r/stobuilds markdown",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "converter",
+    "markdown",
+    "sto academy",
+    "reddit",
+    "stobuilds",
+    "star trek online",
+    "sto"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciphernull/stobuilds-converter.git"
+  },
+  "author": "Dan Christensen",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ciphernull/stobuilds-converter/issues"
+  },
+  "homepage": "https://github.com/ciphernull/stobuilds-converter#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "express": "^4.14.1",
+    "request": "^2.79.0"
+  }
+}
